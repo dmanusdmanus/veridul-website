@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #05070d;
+  color: white;
+  text-align: center;
+}
+
+section {
+  padding: 120px 24px;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+p {
+  max-width: 720px;
+  margin: 0 auto 24px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #c8d0dc;
+}
+
+button {
+  background: #2563ff;
+  color: white;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 999px;
+  font-size: 18px;
+  cursor: pointer;
+}
