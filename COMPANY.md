@@ -18,17 +18,23 @@ Become the trusted layer for digital communications worldwide.
 
 ---
 
-## Problem
+## The Problem
 
-Scams, impersonation, fraud, and digital deception are becoming increasingly sophisticated.
+Scams, impersonation, fraud, social engineering, and digital deception are becoming increasingly sophisticated.
 
-People need better tools to understand who and what they can trust.
+Artificial intelligence, voice cloning, messaging platforms, and digital communication channels make it harder than ever for people to know who and what they can trust.
+
+Every day, individuals, families, and businesses lose money, sensitive information, and peace of mind because they are unable to identify dangerous communications in time.
 
 ---
 
-## Solution
+## Our Solution
 
-Veridul analyzes communication risk signals and helps users identify potentially dangerous situations before they act.
+Veridul is developing technologies that help people identify potentially dangerous communications before they act.
+
+By analyzing communication risk signals, Veridul aims to help users make safer decisions when interacting with unknown or suspicious communications.
+
+Veridul focuses on helping people understand when additional verification may be necessary before sharing money, passwords, verification codes, or sensitive information.
 
 ---
 
@@ -40,11 +46,11 @@ Trust is our product.
 
 ### Accuracy
 
-Warnings should be meaningful and reliable.
+Warnings should be meaningful, reliable, and actionable.
 
 ### Simplicity
 
-Protection should be easy to understand.
+Protection should be understandable by anyone.
 
 ### Transparency
 
@@ -64,22 +70,68 @@ We are not a caller ID company.
 
 We are not a voice clone detection company.
 
+We are not a traditional cybersecurity company.
+
 We are building a trust engine for digital communications.
 
 ---
 
-## Long-Term Goal
+## Current Focus
 
-Protect people across:
+Initial development focuses on:
+
+* Phone call protection
+* Scam detection
+* Impersonation detection
+* Fraud risk analysis
+* Communication trust assessment
+
+---
+
+## Future Platform Coverage
+
+Veridul aims to provide protection across:
+
+### Mobile Platforms
+
+* Android
+* iPhone
+
+### Desktop Platforms
+
+* Windows
+* macOS
+
+### Future Platforms
+
+* Additional consumer and business platforms
+
+---
+
+## Future Communication Coverage
+
+Veridul aims to support:
 
 * Phone calls
-* Messaging platforms
+* WhatsApp
+* Telegram
+* SMS
 * Email
 * Video communications
-* Future digital channels
+* Future communication technologies
+
+---
+
+## Long-Term Objective
+
+Create a trusted protection layer that helps people understand whether a communication may be deceptive before harm occurs.
+
+Regardless of device, platform, or communication channel, Veridul's goal is to help users make safer decisions.
 
 ---
 
 ## Success
 
-Success is achieved when users trust Veridul warnings and avoid harmful scams or deception.
+Success is achieved when users trust Veridul and avoid harmful scams, fraud, impersonation attempts, and deceptive communications.
+
+Success is achieved when Veridul becomes a trusted companion for digital communications worldwide.
