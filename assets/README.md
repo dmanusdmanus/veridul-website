@@ -1,0 +1,1 @@
+Veridul website image assets.
