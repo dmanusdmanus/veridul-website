@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Veridul | Trust Every Conversation</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header class="navbar">
-  <div class="logo">VERIDUL</div>
+  <a href="#home" class="brand">
+    <span class="brand-mark">V</span>
+    <span>VERIDUL</span>
+  </a>
 
   <nav>
     <a href="#product">Product</a>
@@ -19,156 +22,153 @@
     <a href="#platforms">Platforms</a>
   </nav>
 
-  <a class="btn-primary" href="#download">Download App</a>
+  <a href="#download" class="button primary">Download App</a>
 </header>
 
+<main id="home">
+
 <section class="hero">
-  <div class="hero-left">
-    <span class="tag">Communication Trust Platform</span>
-
+  <div class="hero-copy">
+    <span class="badge">AI-powered communication protection</span>
     <h1>Trust Every Conversation.</h1>
-
-    <h2>Communication is changing. Trust should not.</h2>
-
     <p>
-      Veridul helps people detect scams, verify identities, and protect the people they care about before harm occurs.
+      Veridul is a communication trust platform that helps people detect scams,
+      verify identities, and protect the people they care about.
     </p>
 
-    <div class="hero-buttons">
-      <a class="btn-primary" href="#download">Download App</a>
-      <a class="btn-secondary" href="#how">How It Works</a>
+    <div class="actions">
+      <a href="#download" class="button primary">Download App</a>
+      <a href="#how" class="button secondary">How It Works</a>
     </div>
 
-    <div class="trust-points">
+    <div class="trust-row">
       <span>AI-powered detection</span>
       <span>Privacy first</span>
-      <span>Works in real time</span>
+      <span>Real-time protection</span>
     </div>
   </div>
 
-  <div class="hero-right">
-    <img src="assets/hero.png" alt="Veridul product preview" class="hero-image">
+  <div class="hero-visual">
+    <div class="phone-mockup">
+      <div class="phone-top">9:41</div>
+      <div class="shield">V</div>
+      <small>Incoming Call</small>
+      <h3>+1 (555) 012-4587</h3>
+      <span class="risk">Potential Scam</span>
+
+      <div class="mini-card">Caller Analysis<br><small>Impersonation risk detected</small></div>
+      <div class="mini-card">Risk Level<br><small>High</small></div>
+      <div class="mini-card">Recommendation<br><small>Do not share personal information.</small></div>
+
+      <div class="call-buttons">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="dashboard">
+      <h3>You are protected</h3>
+      <p>All systems are active and monitoring in real time.</p>
+
+      <div class="dashboard-grid">
+        <div>Scam Detection<br><small>Active</small></div>
+        <div>Identity Verification<br><small>Active</small></div>
+        <div>Fraud Prevention<br><small>Active</small></div>
+      </div>
+
+      <h4>Recent Activity</h4>
+      <div class="activity">+1 (555) 012-4587 <span>High</span></div>
+      <div class="activity">+1 (555) 987-6543 <span class="safe">Safe</span></div>
+      <div class="activity">+1 (555) 333-0199 <span class="medium">Medium</span></div>
+    </div>
   </div>
 </section>
 
-<section id="security" class="section">
-  <span class="tag">Private by Design</span>
-  <h2>Your conversations belong to you.</h2>
-  <p>
-    Veridul is designed with privacy, encryption, and user control at its core.
-    Protection should never require giving up control of your personal communications.
-  </p>
+<section id="security" class="privacy">
+  <div>
+    <h2>Private by Design</h2>
+    <p>Your conversations belong to you. Veridul is built with privacy, encryption, and user control at its core.</p>
+  </div>
 
-  <div class="cards four">
-    <div class="card">
-      <h3>Privacy First</h3>
-      <p>Designed to protect communications, not collect them.</p>
-    </div>
-    <div class="card">
-      <h3>Encrypted Handling</h3>
-      <p>Secure handling for sensitive communication risk signals.</p>
-    </div>
-    <div class="card">
-      <h3>User Control</h3>
-      <p>Users control permissions and what information is shared.</p>
-    </div>
-    <div class="card">
-      <h3>Minimal Retention</h3>
-      <p>Built to avoid unnecessary storage of communication data.</p>
-    </div>
+  <div class="privacy-cards">
+    <div><h3>Privacy First</h3><p>Designed to protect communications, not collect them.</p></div>
+    <div><h3>Encrypted Handling</h3><p>Secure handling of sensitive risk signals.</p></div>
+    <div><h3>User Control</h3><p>You decide what is shared and protected.</p></div>
+    <div><h3>Minimal Retention</h3><p>Built to avoid unnecessary storage.</p></div>
   </div>
 </section>
 
-<section id="product" class="section light">
-  <span class="tag">Product</span>
+<section id="product" class="section">
+  <span class="badge">Product</span>
   <h2>Designed to guide, not frighten.</h2>
-  <p>
-    Veridul stays quiet during normal communications and gives clear guidance only when meaningful risk signals appear.
-  </p>
+  <p>Veridul gives clear guidance only when meaningful risk signals appear.</p>
 </section>
 
-<section id="how" class="section">
-  <span class="tag">How It Works</span>
+<section id="how" class="section light">
+  <span class="badge">How It Works</span>
   <h2>Analyze. Detect. Verify.</h2>
 
   <div class="cards">
-    <div class="card">
-      <h3>Analyze</h3>
-      <p>Veridul reviews communication risk signals in real time.</p>
-    </div>
-    <div class="card">
-      <h3>Detect</h3>
-      <p>Scam, impersonation, pressure, and fraud indicators are identified.</p>
-    </div>
-    <div class="card">
-      <h3>Verify</h3>
-      <p>Users receive clear guidance before taking risky action.</p>
-    </div>
+    <div><h3>Analyze</h3><p>Reviews communication risk signals in real time.</p></div>
+    <div><h3>Detect</h3><p>Identifies scam, impersonation, pressure, and fraud indicators.</p></div>
+    <div><h3>Verify</h3><p>Provides guidance before risky action is taken.</p></div>
   </div>
-</section>
-
-<section class="section light">
-  <span class="tag">Why Veridul Exists</span>
-  <h2>Trust is becoming harder to verify.</h2>
-  <p>
-    AI-generated voices, impersonation attacks, social engineering, and fraud are making communications harder to trust.
-    Veridul helps people pause, verify, and make safer decisions.
-  </p>
 </section>
 
 <section id="pricing" class="section">
-  <span class="tag">Pricing</span>
+  <span class="badge">Pricing</span>
   <h2>Simple protection plans.</h2>
 
   <div class="cards">
-    <div class="card">
-      <h3>Individual</h3>
-      <h4>€4.99/month</h4>
-      <p>Protection for one user.</p>
-    </div>
-    <div class="card featured">
-      <h3>Family</h3>
-      <h4>€9.99/month</h4>
-      <p>Protection for up to five family members.</p>
-    </div>
-    <div class="card">
-      <h3>Business</h3>
-      <h4>From €49/month</h4>
-      <p>Protection for organizations and teams.</p>
-    </div>
+    <div><h3>Individual</h3><strong>€4.99/month</strong><p>Protection for one user.</p></div>
+    <div><h3>Family</h3><strong>€9.99/month</strong><p>Protection for up to five family members.</p></div>
+    <div><h3>Business</h3><strong>From €49/month</strong><p>Protection for teams and organizations.</p></div>
   </div>
 </section>
 
-<section id="platforms" class="section light">
-  <span class="tag">Platforms</span>
-  <h2>Protect every conversation, everywhere.</h2>
+<section id="platforms" class="platforms">
+  <div>
+    <h2>Protect every conversation, everywhere.</h2>
+    <p>Veridul is available across mobile, desktop, browser, and business environments.</p>
+  </div>
 
-  <div class="cards">
-    <div class="card"><h3>Android</h3></div>
-    <div class="card"><h3>iPhone</h3></div>
-    <div class="card"><h3>Windows</h3></div>
-    <div class="card"><h3>macOS</h3></div>
-    <div class="card"><h3>Browser</h3></div>
-    <div class="card"><h3>Business</h3></div>
+  <div class="platform-grid">
+    <a href="#download">Android</a>
+    <a href="#download">iPhone</a>
+    <a href="#download">Windows</a>
+    <a href="#download">macOS</a>
+    <a href="#download">Browser</a>
+    <a href="#download">Business</a>
   </div>
 </section>
 
-<section id="download" class="section download">
+<section id="download" class="download">
   <h2>Download Veridul</h2>
   <p>Protect yourself, your family, and your organization from deceptive communications.</p>
 
-  <div class="download-buttons">
-    <a href="#">Android</a>
-    <a href="#">iPhone</a>
-    <a href="#">Windows</a>
-    <a href="#">macOS</a>
+  <div class="download-grid">
+    <a href="#">Download for Android</a>
+    <a href="#">Download for iPhone</a>
+    <a href="#">Download for Windows</a>
+    <a href="#">Download for macOS</a>
   </div>
 </section>
 
+</main>
+
 <footer>
-  <div class="logo">VERIDUL</div>
-  <p>Trust Every Conversation.</p>
-  <p>Communication is changing. Trust should not.</p>
+  <div class="brand footer-brand">
+    <span class="brand-mark">V</span>
+    <span>VERIDUL</span>
+  </div>
+
+  <nav>
+    <a href="#product">Product</a>
+    <a href="#security">Security</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#platforms">Platforms</a>
+  </nav>
+
   <p>© Veridul. All rights reserved.</p>
 </footer>
 
