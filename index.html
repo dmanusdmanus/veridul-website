@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Veridul | Trust Every Conversation</title>
+  <meta name="description" content="Veridul is an AI-powered communication trust platform that helps people detect scams, verify identities, and make confident decisions before taking action." />
+  <meta name="theme-color" content="#2962ff" />
+
+  <link rel="icon" href="assets/Logo.png" />
+  <link rel="apple-touch-icon" href="assets/Logo.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -13,7 +19,7 @@
     <img src="assets/Logo.png" alt="Veridul logo">
   </a>
 
-  <nav>
+  <nav aria-label="Main navigation">
     <a href="#product">Product</a>
     <a href="#how">How It Works</a>
     <a href="#security">Security</a>
@@ -47,16 +53,20 @@
       <a href="#how" class="button secondary">How It Works</a>
     </div>
 
-    <div class="trust-row">
+    <div class="trust-row" aria-label="Key Veridul benefits">
       <span>AI Risk Detection</span>
       <span>Privacy First</span>
       <span>Real-Time Trust</span>
     </div>
   </div>
 
-  <div class="hero-product">
+  <div class="hero-product" aria-label="Veridul product preview">
     <div class="phone">
-      <div class="phone-top">9:41</div>
+      <div class="phone-top">
+        <span>9:41</span>
+        <span class="phone-dot"></span>
+      </div>
+
       <div class="shield">V</div>
       <p>Incoming Communication</p>
       <h3>+1 (555) 012-4587</h3>
@@ -79,8 +89,13 @@
     </div>
 
     <div class="dashboard">
-      <h3>Trust Center</h3>
-      <p>Veridul is actively monitoring communications and helping protect you from scams, impersonation, and social engineering.</p>
+      <div class="dashboard-heading">
+        <div>
+          <h3>Trust Center</h3>
+          <p>Veridul is actively monitoring communications and helping protect you from scams, impersonation, and social engineering.</p>
+        </div>
+        <span class="status-pill">Protected</span>
+      </div>
 
       <div class="status-grid">
         <a href="#how">Communication Protection<br><span>Active</span></a>
@@ -98,6 +113,7 @@
 
 <section id="security" class="privacy">
   <div>
+    <span class="badge">Security</span>
     <h2>Private by Design</h2>
     <p>
       Your conversations belong to you. Veridul is built around privacy,
@@ -144,6 +160,7 @@
 
 <section id="platforms" class="platforms">
   <div>
+    <span class="badge">Platforms</span>
     <h2>Trust every conversation on every device.</h2>
     <p>Veridul protects communications across mobile, desktop, browser, and business environments.</p>
   </div>
@@ -159,14 +176,15 @@
 </section>
 
 <section id="download" class="download">
+  <span class="badge">Download</span>
   <h2>Start protecting every conversation.</h2>
   <p>Download Veridul and make every call, message, email, and online interaction more trustworthy.</p>
 
   <div class="download-grid">
-    <a href="#">Download for Android</a>
-    <a href="#">Download for iPhone</a>
-    <a href="#">Download for Windows</a>
-    <a href="#">Download for macOS</a>
+    <a href="#">Android <span>Coming Soon</span></a>
+    <a href="#">iPhone <span>Coming Soon</span></a>
+    <a href="#">Windows <span>Coming Soon</span></a>
+    <a href="#">macOS <span>Coming Soon</span></a>
   </div>
 </section>
 
@@ -176,6 +194,13 @@
   <div class="footer-logo">
     <img src="assets/Logo.png" alt="Veridul logo">
   </div>
+
+  <div class="footer-links">
+    <a href="#security">Privacy</a>
+    <a href="#product">Terms</a>
+    <a href="#download">Contact</a>
+  </div>
+
   <p>Trust Every Conversation.</p>
   <p>Communication is changing. Trust should not.</p>
   <p>© 2026 Veridul. All rights reserved.</p>
