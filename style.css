@@ -20,7 +20,7 @@ a {
 }
 
 .navbar {
-  height: 84px;
+  height: 92px;
   padding: 0 7%;
   display: flex;
   align-items: center;
@@ -33,15 +33,21 @@ a {
   z-index: 10;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
   display: block;
-  width: 205px;
-  height: auto;
+  width: 275px;
+  max-height: 58px;
+  object-fit: contain;
 }
 
 .footer-logo img {
   display: block;
-  width: 165px;
+  width: 240px;
   height: auto;
 }
 
@@ -587,11 +593,12 @@ footer p {
   }
 
   .logo img {
-    width: 145px;
+    width: 180px;
+    max-height: 48px;
   }
 
   .footer-logo img {
-    width: 135px;
+    width: 170px;
   }
 
   .nav-button {
