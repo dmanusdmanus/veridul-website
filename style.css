@@ -20,7 +20,7 @@ a {
 }
 
 .navbar {
-  height: 96px;
+  height: 112px;
   padding: 0 7%;
   display: flex;
   align-items: center;
@@ -36,19 +36,23 @@ a {
 .logo {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .logo img {
   display: block;
-  width: 360px;
-  max-height: 74px;
+  width: auto;
+  height: 72px;
+  max-height: none;
   object-fit: contain;
 }
 
 .footer-logo img {
   display: block;
-  width: 260px;
-  height: auto;
+  width: auto;
+  height: 86px;
+  max-height: none;
+  object-fit: contain;
 }
 
 nav {
@@ -542,7 +546,7 @@ footer p {
 
 @media (max-width: 1180px) {
   .logo img {
-    width: 300px;
+    height: 60px;
   }
 
   .hero-product {
@@ -598,12 +602,11 @@ footer p {
   }
 
   .logo img {
-    width: 190px;
-    max-height: 52px;
+    height: 48px;
   }
 
   .footer-logo img {
-    width: 180px;
+    height: 62px;
   }
 
   .nav-button {
