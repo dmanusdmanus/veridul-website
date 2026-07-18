@@ -72,6 +72,7 @@ Phase 6 --- Trust Engine V2
 
 Objectives:
 
+-   AI-generated content detection
 -   Voice analysis
 -   AI voice detection
 -   Deepfake detection
@@ -110,6 +111,7 @@ Phase 10 --- Global Trust Infrastructure
 
 Objectives:
 
+-   Public Trust API
 -   Email protection
 -   Video communication protection
 -   Enterprise integrations
