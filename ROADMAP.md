@@ -1,127 +1,145 @@
-# Veridul Roadmap
+Veridul Roadmap
 
-## Phase 1 — Foundation
+Phase 1 --- Foundation
 
 Status: Current
 
 Objectives:
 
-* Define company vision
-* Define product architecture
-* Launch website
-* Establish branding
-* Create product specifications
-* Create app screen designs
+-   Define company vision
+-   Define product architecture
+-   Launch website
+-   Establish branding
+-   Create product specifications
+-   Create application designs
+-   Establish Google presence
+-   Define technical stack
 
----
-
-## Phase 2 — Veridul Mobile (Android)
+Phase 2 --- Trust Engine V1
 
 Objectives:
 
-* Android application
-* Trust Engine V1
-* Scam detection
-* Impersonation detection
-* Risk warnings
-* Communication analysis
+-   Scam detection
+-   Impersonation detection
+-   Risk scoring
+-   Recommendation engine
+-   Confidence scoring
+-   Initial scam datasets
+
+Example Results:
+
+-   Safe
+-   Suspicious
+-   High Risk
+
+Phase 3 --- Veridul Mobile (Android)
+
+Objectives:
+
+-   Android application
+-   Trust Engine integration
+-   Real-time call protection
+-   Communication analysis
+-   Risk warnings
 
 Supported Communication:
 
-* Phone calls
+-   Phone calls
 
----
-
-## Phase 3 — Veridul Mobile (iPhone)
+Phase 4 --- Veridul Mobile (iPhone)
 
 Objectives:
 
-* iPhone application
-* Feature parity with Android
-* Family plans
-* Trusted contacts
+-   iPhone application
+-   Feature parity with Android
+-   Family plans
+-   Trusted contacts
 
 Supported Communication:
 
-* Phone calls
+-   Phone calls
 
----
-
-## Phase 4 — Communication Expansion
+Phase 5 --- Communication Expansion
 
 Objectives:
 
-* WhatsApp support
-* Telegram support
-* SMS support
-* Expanded communication coverage
+-   SMS support
+-   WhatsApp support
+-   Telegram support
+-   Messenger support
 
----
-
-## Phase 5 — Veridul Desktop
+Phase 6 --- Trust Engine V2
 
 Objectives:
 
-* Windows application
-* macOS application
-* Desktop communication protection
+-   Voice analysis
+-   AI voice detection
+-   Deepfake detection
+-   Behavioral analysis
+-   Advanced trust scoring
 
----
-
-## Phase 6 — Advanced Trust Engine
-
-Objectives:
-
-* Enhanced context analysis
-* Improved scam detection
-* Improved impersonation detection
-* Voice risk indicators
-* Advanced trust scoring
-
----
-
-## Phase 7 — Business Platform
+Phase 7 --- Veridul Desktop
 
 Objectives:
 
-* Team management
-* Business protection
-* Reporting
-* Administrative controls
+-   Windows application
+-   macOS application
+-   Browser extension
 
----
-
-## Phase 8 — Global Trust Platform
+Phase 8 --- Identity Layer
 
 Objectives:
 
-* Email protection
-* Video communication protection
-* Cross-platform protection
-* Enterprise capabilities
+-   Verified by Veridul
+-   Business verification
+-   Professional verification
+-   Seller verification
+-   Trust profiles
 
----
+Phase 9 --- Business Platform
 
-## Long-Term Vision
+Objectives:
 
-Protect people across all major communication platforms and devices.
+-   Team management
+-   Business protection
+-   Administrative controls
+-   Reporting
+-   API access
 
-Supported Platforms:
+Phase 10 --- Global Trust Infrastructure
 
-* Android
-* iPhone
-* Windows
-* macOS
+Objectives:
 
-Supported Communications:
+-   Email protection
+-   Video communication protection
+-   Enterprise integrations
+-   Telecom integrations
+-   Banking integrations
+-   Government partnerships
 
-* Phone calls
-* WhatsApp
-* Telegram
-* SMS
-* Email
-* Video communications
+Long-Term Vision
 
-Mission:
+A world where every person can trust who they are communicating with.
 
-Help people identify potentially deceptive communications before harm occurs.
+Mission
+
+Restore trust in human communication through intelligent verification
+and real-time protection.
+
+Supported Platforms
+
+-   Android
+-   iPhone
+-   Windows
+-   macOS
+-   Browser
+
+Supported Communications
+
+-   Phone calls
+-   SMS
+-   WhatsApp
+-   Telegram
+-   Messenger
+-   Email
+-   Video communications
